@@ -1,4 +1,31 @@
 body{
-    color: rebeccapurple;
-    background-color: aqua;
+    color: rgb(19, 12, 11);
+    background-color: rgb(201, 240, 240);
+    margin: 0; 
+    font-family: sans-serif
 }
+.todo-container{
+   
+    width: 350px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.inputSession{
+    background-color: rgb(108, 108, 185);
+
+
+
+}
+  ul{
+    background-color: aliceblue;
+    min-height: 200px;
+    padding: 5px;
+    text-align: left;
+  }
+  ul li{
+    list-style: none;
+  }

@@ -9,9 +9,12 @@ export default class TodoApp extends Component {
         <div class="inputSession">
             <input type={text}></input>
             <button type={submit}> add</button>
-
+          
         </div>
+        <ul>
+                <li> hey </li>
 
+            </ul>
       </div>
     )
   }
