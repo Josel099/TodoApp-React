@@ -11,15 +11,14 @@ body{
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); /* used to exact center the box */
+     
 
 }
-.inputSession{
+/* .inputSession{
     background-color: rgb(108, 108, 185);
+} */
 
-
-
-}
   ul{
     background-color: aliceblue;
     min-height: 200px;
@@ -33,4 +32,6 @@ body{
     border-radius: 5px;
     border: 2px solid;
     width: 100% ;
+    padding: 10px;
+    box-sizing: border-box;
   }

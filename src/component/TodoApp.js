@@ -6,11 +6,11 @@ export default class TodoApp extends Component {
     return (
       <div class="todo-container">
         <h1>To do </h1>
-        <div class="inputSession">
-            <input type={text}></input>
+        <form class="inputSession">
+            <input type={text} placeholder="enter the item's"></input>
             <button type={submit}> add</button>
           
-        </div>
+        </form>
         <ul>
                 <li> hey </li>
 
