@@ -1,4 +1,4 @@
-import React, { Component,text,submit } from 'react'
+import React, { Component,text } from 'react'
 
 import "./TodoApp.css"
 export default class TodoApp extends Component {
@@ -14,10 +14,10 @@ export default class TodoApp extends Component {
         </form>
         </div>
         <ul>
-                <li> hey </li>
-                <li> hey </li>
-                <li> hey </li>
-                <li> hey </li>
+                <li > hey  <i class="fa-solid fa-trash"></i></li>
+                <li> hey <i class="fa-solid fa-trash"></i></li>
+                <li> hey <i class="fa-solid fa-trash"></i></li>
+                <li> hey <i class="fa-solid fa-trash"></i></li>
 
             </ul>
       </div>

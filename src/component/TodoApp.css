@@ -33,6 +33,7 @@ h1{
     text-align: left;
   }
   ul li{
+    display: flex;
     list-style: none;
     background-color: aliceblue;
     padding: 10px; 
@@ -50,4 +51,8 @@ h1{
     padding: 10px;
     box-sizing: border-box; /*to contain inside the parent element*/
     margin-bottom: 10px;
+  }
+  ul li i{
+    text-align: right;
+    flex: 1;
   }
