@@ -15,8 +15,13 @@ export default class TodoApp extends Component {
  //console.log(this.state.input);
  };
  
-deleteItem=()=>{
-  
+deleteItem=(index)=>{
+  const allItems =this.state.items;
+  allItems.splice(index,1);
+  this.setState({
+    items:allItems
+  })
+
 }
 
 
