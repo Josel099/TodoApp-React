@@ -11,7 +11,7 @@ export default class TodoApp extends Component {
   
   render() {
     
-    
+   const {input} =this.state;
     return (
       <div class="todo-container">
         <div className='todoAndInputField'>
